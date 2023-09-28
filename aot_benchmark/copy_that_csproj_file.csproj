@@ -6,4 +6,9 @@
         <Nullable>enable</Nullable>
         <PublishAot>true</PublishAot>
     </PropertyGroup>
+ <PropertyGroup>
+    <PublishReadyToRun>true</PublishReadyToRun>
+    <PublishTrimmed>true</PublishTrimmed>
+    <TrimMode>link</TrimMode>
+</PropertyGroup>
 </Project>
